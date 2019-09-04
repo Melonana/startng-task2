@@ -2,30 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <title>Emmanuel's CV</title>
     <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <div class="header">
-      <h1>EMMANUEL CHIMERE UMUNNAKWE</h1>
+      <h1 class="my-name">EMMANUEL CHIMERE UMUNNAKWE</h1>
           <p id="email"><strong>E-mail</strong>:<a href="mailto:ecumunnakwe@gmail.com"> ecumunnakwe@gmail.com</a></p>
           <p id="phone"><strong>Phone number</strong>:<a href="09097297176"> 09097297176</a></p>
           <p id="address"><strong>Address</strong>: Awka, Anambra State</p>
-    </div>
 
+    </div>
     <div class="main">
-      <ul>
-        <li class="proline"><a href="#profile">Profile</a></li>
-        <li class="prolinw"><a href="#education">Education</a></li>
-        <li><a href="#skills">Core qualification and technical skills</a></li>
-        <li><a href="#professional">Professional Experience</a></li>
-        <li><a href="#references">References</a></li>
-        </ul>
 
 
       <h2><strong>PROFILE SUMMARY</strong></h2>
-        <p><strong> University of East London, London, UK</strong>: 2010-2013 <br><i>BSc. (Hons.) Software Engineering</i></p>
-        <p><strong>Taidob College, Abeokuta, Ogun State</strong>: 2000-2006 <br><i>WAEC Senior School Certificate</p></i>
+        <p class="sch"><strong> University of East London, London, UK</strong>: 2010-2013 <br><i>BSc. (Hons.) Software Engineering</i></p>
+        <p class="sch"><strong>Taidob College, Abeokuta, Ogun State</strong>: 2000-2006 <br><i>WAEC Senior School Certificate</p></i>
 
       <h2><strong>CORE QUALIFICATION AND TECHNICAL SKILLS</strong></h2>
         <ol>
@@ -78,8 +75,31 @@
 
     <div class="footer">
       <h2>REFERENCES</h2>
-        <p>Kanayochukwu Albert-Okafor <br><strong> Federal Inland Revenue Service</strong><br> Lagos State </p>
-        <p>Stanley Ezekobe <br><strong>Pricewaterhousecoopers(PWC)</strong> <br>Lagos State</p>
+        <p>Kanayochukwu Albert-Okafor <br><strong class="reference"> Federal Inland Revenue Service</strong><br> Lagos State </p>
+        <p>Stanley Ezekobe <br><strong class="reference">Pricewaterhousecoopers(PWC)</strong> <br>Lagos State</p>
+
+    </div>
+    <div class="contact-title">
+      <h1>Have a job for me?</h1>
+      <h2>Contact me pls</h2>
+    </div>
+
+    <div class="contact-form">
+
+      <form name="" id="contact-form" method="post" action="">
+
+        <input name="title" type="text" class="form-control" placeholder="Mr/Ms/Miss/Mrs" required><br>
+
+        <input name="name" type="text" class="form-control" placeholder="Your Full Name" required minlength="4"><br>
+
+        <input name="e-mail" type="email" class="form-control" placeholder="Your E-mail" required><br>
+
+        <textarea name="message" class="form-control" placeholder="Message"rows="4" required minlength="20"></textarea><br>
+
+        <input type="submit" class="form-control submit" value="SEND MESSAGE">
+
+      </form>
+
 
     </div>
 

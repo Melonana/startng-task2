@@ -1,34 +1,125 @@
 body{
-  font-family: "Avenir Next";
+  background-color: lightgreen;
+  font-style: normal;
+  font-family: monospace;
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
 }
+
 .header{
-  background-color: #26d0c9;
-  height: 200px;
-  padding: 10px;
-  color: #fff;
+  border-color: yellow;
+  border-width: 10px;
+  border-style: solid;
+  padding: 22px;
+  border-radius: 10px;
+}
+.my-name{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#email{
+  color: red;
+  font-weight: bold;
+  font-size: 22px;
+}
+#phone{
+  color: orange;
+  font-weight: bold;
+  font-size: 22px;
+}
+#address{
+  color: violet;
+  font-weight: bold;
+  font-size: 22px;
 }
 .main{
-  background-color: white;
-  padding: 60px 40px;
-  
+  border-color: blue;
+  border-width: 10px;
+  border-style: solid;
+  padding: 22px;
+  border-radius: 10px;
+}
+h2{
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+.sch{
+  color: brown;
+  font-weight: bold;
+  font-size: 15px;
+}
+ol{
+  color: brown;
+  font-weight: bold;
+  font-size: 15px;
 
+}
+table{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+ul{
+  color: brown;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+p{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+}
+.contact-title{
+  text-align: center;
+}
+.contact-form{
+  text-align: center;
+}
+form{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+  font-weight: bold;
+}
+.form-control{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px
+}
+input{
+  height: 45px;
+}
+form .submit{
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: #f44336;
+  cursor: pointer;
+}
+.reference{
+  color: purple;
 }
 
 .footer{
-  background-color: #2f5167;
-  padding: 10px;
-}
-h1{
-  color: #EEE6ED;
-}
+  border-color: darkgreen;
+  border-width: 10px;
+  border-style: solid;
+  padding: 22px;
+  border-radius: 10px;
 
-ul{
-  color: #730F24;
-}
-
-ol{
-  color: #E8612E;
-}
-h2{
-  color: #2C1AE3;
 }
