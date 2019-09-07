@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Software Developer CV</title>
     <meta charset="utf-8">
+    <meta name="description" content="software developer with knowledge in HTML, CSS,Javascript, PHP. Python ">
+    <meta name="keywords" content="software,developer, Python,HTML,Javascript,computer,data analysis,computer, CV, program, data, skills,develop, contact, Nigeria, Lagos ">
+    <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Emmanuel's CV</title>
+    <title>Emma CV</title>
     <link rel="stylesheet" href="style.css">
 
   </head>
@@ -86,13 +90,13 @@
 
     <div class="contact-form">
 
-      <form name="" id="contact-form" method="post" action="">
+      <form action="response.php" method="post">
 
         <input name="title" type="text" class="form-control" placeholder="Mr/Ms/Miss/Mrs" required><br>
 
         <input name="name" type="text" class="form-control" placeholder="Your Full Name" required minlength="4"><br>
 
-        <input name="e-mail" type="email" class="form-control" placeholder="Your E-mail" required><br>
+        <input name="email" type="email" class="form-control" placeholder="Your E-mail" required><br>
 
         <textarea name="message" class="form-control" placeholder="Message"rows="4" required minlength="20"></textarea><br>
 
